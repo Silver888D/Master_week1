@@ -24,6 +24,7 @@
 
 // favSongs.map((favReversed) => {console.log(`${favReversed}`)})
 
+// LOOPS
 // let favDrinks = ["Coke","Water","Milk"]
 // // // console.log(favDrinks[0])
 // // // console.log(favDrinks[1])
@@ -40,6 +41,33 @@
 
 // while (num < favDrinks.length){console.log(favDrinks[num]);num++}
 
-let age = 15
-while (age<18){console.log("You are a child");age++;}
-console.log("You're an adult");
+// let age = 15
+// while (age<18){console.log("You are a child");age++;}
+// console.log("You're an adult");
+
+// Activities
+
+// favFilms = ["Baby Driver", "Hot Fuzz", "This is the End", "Transporter 2",]
+// // favFilms.unshift("Hot Tub Time Machine","Venom")
+// // for (let filmLoop = 0; filmLoop < favFilms.length; filmLoop++){
+// //         console.log(favFilms[filmLoop]);}
+
+
+// // let num = []
+// // // while (num.length <6){let randNo = (Math.floor(Math.random() * 50));num.push(randNo);console.log(num)}
+
+// // let toNine = 9
+// // // for(let x = 0; x < 20; x++){
+// // //     if (x % 2 == 0){
+// // //         console.log(toNine)
+// // //         toNine--}}
+// // while(toNine >= 0){console.log(toNine);toNine--}
+
+// console.log(favFilms)
+// for (let filmLoop = 0; filmLoop < favFilms.length; filmLoop++){
+//         console.log(favFilms[filmLoop]);}
+// if (favFilms[2]== "Ghostbusters"){console.log("Yay Ghostbusters!")}
+// else{console.log("Boo! We want Ghostbusters")}
+
+let num = []
+while (num.length < 6){randNo = Math.floor(Math.random()*(30)+1);if (randNo % 7 == 0){console.log(`${randNo} is divisible by seven.`)}else {console.log(`${randNo} is not divisible by seven.`)}num.push(randNo);console.log(num)}
