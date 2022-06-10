@@ -92,19 +92,23 @@
 // coffeeShop.drinksOrdered("coffee")
 // coffeeShop.drinksOrdered("tea")
 
-let coffeeShop = {branch: "Liverpool", drinksPrices: {cappuccino: 4, latte: 4, espresso: 2, americano: 3},
-foodPrices: {croissant: 3, breakfastSandwich: 5, bagel: 4, donut: 3, cupcake: 2}, 
+// let coffeeShop = {branch: "Liverpool", drinksPrices: {cappuccino: 4, latte: 4, espresso: 2, americano: 3},
+// foodPrices: {croissant: 3, breakfastSandwich: 5, bagel: 4, donut: 3, cupcake: 2}, 
 
-foodOrdered(order) {foodOrder = []; total = 0;
-    for (let i=0; i<order.length; i++) {if (order[i] in this.foodPrices) {
-        food = order[i]; price = this.foodPrices[order[i]];foodOrder.push(`${food}: £${price}`);total += price}}
-        return "\nYour food bill:\n" + foodOrder.join("\n") + `\nTotal: £${total}\n`},
+// foodOrdered(order) {foodOrder = []; total = 0;
+//     for (let i=0; i<order.length; i++) {if (order[i] in this.foodPrices) {
+//         food = order[i]; price = this.foodPrices[order[i]];foodOrder.push(`${food}: £${price}`);total += price}}
+//         return "\nYour food bill:\n" + foodOrder.join("\n") + `\nTotal: £${total}\n`},
 
-drinksOrdered(order) {drinksOrder = []; total = 0; 
-    for (let i=0; i<order.length; i++) {if (order[i] in this.drinksPrices) {
-        drink = order[i]; price = this.drinksPrices[order[i]]; drinksOrder.push(`${drink}: £${price}`); total += price}}
-        return "Your drinks bill:\n" + drinksOrder.join("\n") + `\nTotal: £${total}\n`},}
+// drinksOrdered(order) {drinksOrder = []; total = 0; 
+//     for (let i=0; i<order.length; i++) {if (order[i] in this.drinksPrices) {
+//         drink = order[i]; price = this.drinksPrices[order[i]]; drinksOrder.push(`${drink}: £${price}`); total += price}}
+//         return "Your drinks bill:\n" + drinksOrder.join("\n") + `\nTotal: £${total}\n`},}
 
-order = ["croissant"]
-console.log(coffeeShop.foodOrdered(order))
-console.log(coffeeShop.drinksOrdered(order))
+// order = ["croissant"]
+// console.log(coffeeShop.foodOrdered(order))
+// console.log(coffeeShop.drinksOrdered(order))
+
+let string = "hello world"
+
+for (let i of string) {console.log(i);}
